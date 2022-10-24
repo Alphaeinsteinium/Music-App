@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --first-color: rgba(0,0,0,0.9);
+    --second-color: rgba(255,255,255,1);
+    --third-color: rgba(255,255,255,0.6);
+    --fourth-color: rgba(0,0,0,0.6);
+    --fifth-color: rgba(255,255,255,0.8);
+}
+:root{
+    --first-size: 18px;
+    --second-size: 20px;
+    --third-size: 25px;
+    --fourth-size: 30px;
+    --first-weight: 600;
+    --second-weight: 700;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+     font-family: 'Montserrat', sans-serif;
+     background: var(--first-color);
+     color: var(--second-color); 
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.header{
+    display: flex;
+    margin-right: 4px;
+}
+img.logo{
+    width: 45px;
+    height: 45px;
+    padding-top: 4px;
+}
+h1{
+    margin-left: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+p.name{
+    font-size: var(--third-size: 25px);
+    font-weight: var(--first-weight);
+    margin-left: 50px;
+    
+}
+.content{
+    background: linear-gradient(#00071c,#001e2c);
+    width: 18%;
+    height: 200vh;
+    padding: 15px;
+}
+input[type="search"]{
+    background: transparent;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 6px 6px 14px 14px rgba(128,0,128,0.3);
+    width: 35%;
+    height: 4vh;
+    text-align: center;
+    font-size: var(--first-size);
+    color: var(--second-color);
+}
+input[type="search"]:focus{
+    width: 35%;
+    height: 4vh;
+}
+/* Menu section */
+.menu{
+    padding-top: 45px;
+}
+.menu p{
+    color: var(--third-color);
+    font-size: var(--third-size);
+    margin-left: 3px;
+}
+.link{
+    display: flex;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.links{
+    padding-top: 7px;
+    padding-bottom: 5px;
+}
+.links .link{
+    padding-bottom: 25px;
+    margin-right: 8px;
+}
+.link a{
+    text-decoration: none;
+    color: var(--fifth-color);
+    font-size: var(--second-size);
+    padding-top: 6px;
+}
+img.home{
+    width: 35px;
+    height: 35px;
+}
+
+/* Concept Section */
+.concept{
+    background: linear-gradient(/*to bottom right*/ #2c0031 3%,rgba(0,0,0,0.01),rgba(0,0,0,0.01) 100%);
+    width: 50%;
+    padding: 15px;
+    padding-top: 20px;
+}
+.tops{
+    color: var(--third-color);
+}
+.trends{
+    display: flex;
+    padding-top: 5px;
+}
+p.see{
+    float: left;
+    margin-left: 300px;
+    color: var(--third-color);
+}
+/* Playlist session */
+.playlist{
+    background: linear-gradient(to top left,#cc11c9,#0e4ea7,#020a15);
+    border-radius: 15px;
+    padding: 15px;
+}
+.playboy{
+    color: var(--third-color);
+}
+h3{
+    padding-top: 8px;
+    line-height: 1.5em;
+}
+.animate{
+    color: var(--second-color);
+    animation: example 2s infinite;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+}
+.button div{
+    margin: 3px;
+}
+.button a{
+    text-decoration: none;
+}
+.play{
+    background: var(--second-color);
+    width: 15%;
+    border-radius: 8px;
+    display: flex;
+}
+.view a{
+    text-decoration: none;
+    color: var(--second-color)
+}
+.view{
+    background: grey;
+    padding: 10px 12px;
+    border-radius:10px;
+    
+}
+img.player{
+    width: 30px;
+    height: 30px;
+    padding-left: 20px;
+    align-items: center;
+    padding-top: 5px;
+}
+p.dash{
+    font-size: 15px;
+}
+.top{
+    display: flex;
+    padding-top: 7px;
+}
+.top p{
+    margin-left: 330px;
+}
+.dashboard{
+    padding-top: 30px;
+}
+.table{
+    display: flex;
+    border-bottom: 2px solid var(--third-color);
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.table p{
+    margin: 2px;
+    padding: 8px;
+}
+img.love{
+    width: 18px;
+    height: 18px;
+}
+.headers{
+    display: flex;
+    margin: 1px;
+    border-bottom: 2px solid var(--third-color);
+    padding-bottom: 5px;
+    padding-top: 4px;
+}
+img.logos{
+    width: 57px;
+    height: 57px;
+    padding-bottom: 8px;
+}
+img.hean{
+    width: 32px;
+    height: 32px;
+    padding-top: 10px;
+    margin-left: 29px;
+    padding-bottom: 8px;
+}
+.headers p{
+    padding-top: 7px;
+    margin-right: 6px;
+    padding-bottom: 8px;
+}
+.headers p span{
+    font-size: var(--first-size);
+    font-weight: var(--second-weight);
+    
+}
+.another p{
+    font-size: 15px;
+    color: var(--third-color);
+}
+.another{   
+    padding-top: 50px;
+}
+.artistry{
+    display: flex;
+}
+.artistry p{
+    font-size: 12px;
+    padding-top: 9px;
+    margin-left: 120px;
+    color: var(--third-color);
+}
+.feeter{
+    padding: 10px;
+}
+img.logos1{
+    width: 40px;
+    height: 40px;
+}
+.headers1{
+    display: flex;
+    margin-right: 27px;
+    line-height: 1.2em;
+    padding-top: 20px;
+}
+.headers1 p span{
+    font-size: 16px;
+    font-weight: var(--second-weight);
+    
+}
+.headers1 p{
+    padding-top: 5px;
+}
+.seer{
+    font-size: 11px;
+    padding-top: 20px;
+    margin-left: 105px;
+    color: var(--third-color);
+}
+.stream{
+    font-size: 12px;
+}
+img.davido{
+    width: 80%;
+    height: 80%;
+    margin-right: 25px;
+    margin-left: 27px;
+    border-radius: 5px;
+}
+.songname{
+    text-align: center;
+    line-height: 1.6em;
+    padding-top: 10px;
+}
+.songname p:nth-child(1){
+    font-size: var(--second-size);
+    font-weight: var(--first-weight);
+}
+.songname p:nth-child(2){
+    font-size: 14px;
+    color: var(--third-color);
+}
+.btns{
+    display: flex;
+    background-color: var(--third-color);
+    border-radius: 10px;
+    padding: 10px 12px;
+    
+}
+.btns img{
+    width: 28px;
+    height: 28px;
+    margin: 8px;
+}
+.btns .center img{
+    
+}
+img.circled{
+    background: var(--second-color);
+    border-radius: 25px;
+}
+img.leftt{
+    margin-left: 5px;
+}
+.shufflebtn{
+    padding-top: 20px;
+}
+@keyframes example{
+    0%{
+        color: #ba0082;
+    }
+    50%{
+        color: #bab000;
+    }
+    100%{
+        color:#00baba;
+    }
+}
+@media screen and (max-width: 767px){
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .content{
+        display: none;
+    }
+    img.hean{
+       margin-left: 110px;
+       padding-top: 15px;
+       width: 34px;
+       height: 34px;
+    }
+    .headers p{
+        padding-top: 10px;
+    }
+    .artistry p{
+        margin-left: 200px;
+    }
+    .another{
+        padding: 50px 15px 0px 15px;
+    }
+    .headers1{
+        padding: 20px 14px 0px 15px;
+    }
+    .seer{
+        margin-left: 180px;
+    }
+    img.davido{
+        margin-right: 27px;
+        margin-left: 33px;
+    }
+    .btns{
+        padding: 8px 10px;
+        width: 65%;
+        background: gray;
+        border: 1px solid var(--third-color);
+    }
+    .btns img{
+        margin: 12px;
+        width: 15px;
+        height: 15px;
+    }
+    .shufflebtn{
+        margin-left: 5px;
+        transform: translate(12%,-5%);
+        
+    }
+    .concept{
+        width: 100%;
+        background: linear-gradient(#210068 3%,rgba(0,0,0,0.01),rgba(0,0,0,0.01) 100%);
+    }
+    .tops, .see{
+        font-size: 11px;
+    }
+    p.see{
+        margin-left: 180px;
+        padding-top: 5px;
+    }
+    .playlist{
+        border-radius: 15px;
+        padding: 15px;
+        width: 83%;
+    } 
+    .playboy{
+       color: var(--third-color);
+       font-size: 14px;
+    }
+     h3{
+       padding-top: 8px;
+       line-height: 1.3em;
+     }
+  
+    .button div{
+       margin: 3px;
+}
+    .play{
+       padding: 1px 13px;
+       
+     }
+
+     .view{
+       padding: 11px 14px;
+       border-radius: 7px;
+     }
+     .view a{
+         font-size: 14px;
+     }
+     img.player{
+       width: 20px;
+       height: 20px;
+       padding-left: 12px;
+       align-items: center;
+       padding-top: 10px;
+     }
+     .dash{
+         font-size: 12px;
+     }
+     .top p{
+         margin-right: 60px;
+         transform: translateX(77%);
+     }
+     .table{
+         padding-right: 0px;
+         padding-left: 0;
+     }
+     .table p{
+         font-size: 9px;
+         padding: 8px;
+     }
+     .table img{
+         display: none;
+     }
+}
